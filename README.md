@@ -3,7 +3,11 @@
  
  
 2. Instalation node js and run with the word > node first-app.js.
-3. 4key to create Server ### require ### createServer ### (req,res) ### .listen()
+3. 4key to create Server
+### require
+### createServer
+### (req,res) 
+### .listen()
 ```javascript
 const http = require('http');
 const server = http.createServer((req,res) =>{
