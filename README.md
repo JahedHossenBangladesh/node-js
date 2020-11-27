@@ -32,3 +32,18 @@ const server = http.createServer((req,res) =>{
 })
 server.listen(3000);
 ```
+### Routing
+```javascript  
+const http = required('http);
+const server = http.createServer((req,res) =>{
+const url = req.url;
+if ( url === '/'){
+ res.write('<head><title>This is Routing</title></head>');
+    res.write('<body><form action="/message" method ="POST"> <input type="text" name ="message" ><button type="submit"></button></form></body>');
+    res.write('</html>');
+    res.end();
+
+}
+}
+
+```
