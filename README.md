@@ -108,3 +108,9 @@ server.listen(3000);
 
 
 ```
+### Single Thread,Event loop & Blocking code
+![SingleThread](https://user-images.githubusercontent.com/67328056/100513993-70f92480-319b-11eb-8626-bd6b83c2b347.PNG)
+
+
+
+
