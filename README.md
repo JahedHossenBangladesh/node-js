@@ -118,7 +118,7 @@ server.listen(3000);
 1)File name is route.js
 ### Export 
 ```javascript
-Three way to export the handler
+//Three way to export the handler
  module.exports = requestHandler  //number 1
 
 module.exports = {      //number 2
@@ -135,6 +135,7 @@ exports.handler = requestHandler;
 exports.someText = "This is the new Things";
 
 ```
-
+## Module summary
+![ModuleSummary](https://user-images.githubusercontent.com/67328056/100516247-c38f0c80-31ac-11eb-8ca3-2ecdd8d9da54.PNG)
 
 
