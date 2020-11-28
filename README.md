@@ -114,7 +114,27 @@ server.listen(3000);
 ### Event loop
 ![EventLoop](https://user-images.githubusercontent.com/67328056/100514064-d9e09c80-319b-11eb-9a10-270d7f08ba6d.PNG)
 
+### Redirect from others js file 
+1)File name is route.js
+### Export 
+```javascript
+Three way to export the handler
+ module.exports = requestHandler  //number 1
 
+module.exports = {      //number 2
+   handler:requestHandler,
+    someText :'This is the some text'
+
+
+ };
+
+ module.exports.handler = requestHandler;
+ module.exports.someText ="This is new Things";
+
+exports.handler = requestHandler;
+exports.someText = "This is the new Things";
+
+```
 
 
 
