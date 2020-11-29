@@ -138,4 +138,19 @@ exports.someText = "This is the new Things";
 ## Module summary
 ![ModuleSummary](https://user-images.githubusercontent.com/67328056/100516247-c38f0c80-31ac-11eb-8ca3-2ecdd8d9da54.PNG)
 
+### >>>Understanding Npm Script
+ 1) npm init 
+ 2) In Script add "start" : "node first-app.js"
+ 3) ### Start is the resurve word. you cant  write npm start-server 
+ you have to write npm run start-server.
+ ```javascript
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node first-app.js",
+    "start-server": "node first-app.js"
+  },
+ 
+ ```
+
 
