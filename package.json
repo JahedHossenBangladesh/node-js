@@ -1,0 +1,24 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "The complite node js",
+  "main": "first-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node first-app.js",
+    "start-server": "node first-app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JahedHossenBangladesh/node-js.git"
+  },
+  "keywords": [
+    "Nodejs"
+  ],
+  "author": "Jahed Hossen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JahedHossenBangladesh/node-js/issues"
+  },
+  "homepage": "https://github.com/JahedHossenBangladesh/node-js#readme"
+}
