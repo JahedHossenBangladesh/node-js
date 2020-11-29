@@ -158,5 +158,6 @@ exports.someText = "This is the new Things";
 ### if the node moduel is delete or you want to work with the project  just write in terminal  $npm install
 
 ### after install nodemon > change in package.json "start":"nodemon first-app.js" 
- after that just type in terminal  ### npm start
+ after that just type in terminal 
+ ### npm start
  
