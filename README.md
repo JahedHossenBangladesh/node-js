@@ -164,8 +164,7 @@ exports.someText = "This is the new Things";
 ### 
 after install nodemon > change in package.json "start":"nodemon first-app.js"  |
  --- |
- after that just type in terminal 
- ### npm start
+ after that just type in terminal #### npm start 
  
  ### Type of Error 
  #### 1)Syntax error 2) Runtime error 3) Logical error
